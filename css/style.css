@@ -64,6 +64,12 @@ img{
     top:-6.6em;
     left: -0.9em;
 
+    -webkit-animation: bounce 3s infinite ease-in-out;
+    -o-animation: bounce 3s infinite ease-in-out;
+    -ms-animation: bounce 3s infinite ease-in-out; 
+    -moz-animation: bounce 3s infinite ease-in-out; 
+    animation: bounce 3s infinite ease-in-out;
+
 }
 .faq__images-desktop,
 .faq__imgaes-box{
@@ -129,6 +135,18 @@ button:hover
     font-weight: 700;
 }
 
+
+@-webkit-keyframes bounce {
+    0% { transform: translateY(-5px)  }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+}
+
+@keyframes bounce {
+    0% { transform: translateY(-5px)  }
+    50% { transform: translateY(10px) }
+    100% { transform: translateY(-5px) }
+}
  /*****************media qureies ******************/
 
 
@@ -204,6 +222,11 @@ button:hover
     {
         display: block;
         position: relative;
+        -webkit-animation: bounce 3s infinite ease-in-out;
+        -o-animation: bounce 3s infinite ease-in-out;
+        -ms-animation: bounce 3s infinite ease-in-out; 
+        -moz-animation: bounce 3s infinite ease-in-out; 
+        animation: bounce 3s infinite ease-in-out;
         
     }
     .faq__images-desktop{
