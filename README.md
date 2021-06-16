@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Links
 
-- [Live site](https://your-live-site-url.com)
+- [Live site](https://its-saad-rahman.github.io/faq-accordion-card-main-with-css-and-js/)
 
 ## My process
 
